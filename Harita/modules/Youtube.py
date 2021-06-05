@@ -173,9 +173,9 @@ file_helpo = file_help.replace("_", " ")
 
 __help__ = """
  **- Inline Youtube Search**
-Syntax: `@HaritaRobot yt Godzilla`
+Syntax: `@GcatX_bot yt Godzilla`
  **- Inline Torrent Search**
-Syntax: `@HaritaRobot torrent Godzilla`
+Syntax: `@GcatX_bot torrent Godzilla`
  - /ytinfo <video link>: Returns information about the youtube video
 """
 
