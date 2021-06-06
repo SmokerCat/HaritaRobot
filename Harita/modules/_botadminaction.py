@@ -35,10 +35,6 @@ gmuted = db.gmute #RoseloverX
 def get_reason(id):
     return gbanned.find_one({"user": id})
 
-GBAN_LOGS = int(GBAN)
-RoseLoverX = "e async def lamda -f"
-
-
 @register(pattern="^/gban ?(.*)")
 async def gban(event):
  sender = event.sender.first_name
