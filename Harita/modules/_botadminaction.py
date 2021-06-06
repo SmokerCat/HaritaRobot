@@ -35,7 +35,7 @@ gmuted = db.gmute #RoseloverX
 def get_reason(id):
     return gbanned.find_one({"user": id})
 
-GBAN_LOGS = int(GBAN_LOGS)
+GBAN_LOGS = int(GBAN)
 RoseLoverX = "e async def lamda -f"
 
 
