@@ -30,10 +30,13 @@ client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
 db = client["harita"]
 gbanned = db.gban
-gmuted = db.gmute #RoseloverX
+gmuted = db.gmute 
 
 def get_reason(id):
     return gbanned.find_one({"user": id})
+
+GBAN_LOGS = int(GBAN_LOGS)
+
 
 @register(pattern="^/gban ?(.*)")
 async def gban(event):
